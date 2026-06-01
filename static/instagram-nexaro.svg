@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Nexaro Solucoes Digitais</title>
+  <desc id="desc">Arte quadrada institucional da Nexaro para Instagram.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#1B4FD8" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#3B71F5" stroke-opacity=".1"/>
+    </pattern>
+    <linearGradient id="n" x1="0" x2="1" y2="1"><stop stop-color="#00D5FF"/><stop offset=".48" stop-color="#1B4FD8"/><stop offset="1" stop-color="#0042FF"/></linearGradient>
+    <filter id="nGlow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1080" height="1080" fill="#07111F"/>
+  <rect width="1080" height="1080" fill="url(#grid)"/>
+  <rect width="1080" height="1080" fill="url(#glow)"/>
+  <g transform="translate(390 202)">
+    <path d="M0 300V0h88l158 164V15l88-56v341h-88L88 136v109z" fill="url(#n)" filter="url(#nGlow)"/>
+    <path d="M88 245V136l42-41 50 52-22 20v133H88z" fill="#07111F"/>
+  </g>
+  <text x="540" y="650" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" letter-spacing="11" text-anchor="middle">NEXARO</text>
+  <text x="540" y="742" fill="#8A9AB0" font-family="Arial, Helvetica, sans-serif" font-size="32" letter-spacing="13" text-anchor="middle">SOLU&#199;&#213;ES DIGITAIS</text>
+  <text x="540" y="875" fill="#3B71F5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="8" text-anchor="middle">INTEGRA&#199;&#195;O  &#183;  AUTOMA&#199;&#195;O  &#183;  INOVA&#199;&#195;O</text>
+</svg>

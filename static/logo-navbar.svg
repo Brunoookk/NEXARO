@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100" role="img" aria-labelledby="title">
+  <title id="title">Nexaro</title>
+  <defs>
+    <linearGradient id="n" x1="0" x2="1" y2="1"><stop stop-color="#00D5FF"/><stop offset=".48" stop-color="#1B4FD8"/><stop offset="1" stop-color="#0042FF"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M4 88V12h22l42 42V16L91 2v86H68L26 46v28z" fill="url(#n)" filter="url(#glow)"/>
+  <path d="M26 74V46l11-10 13 13-6 6v33z" fill="#07111F"/>
+  <text x="96" y="62" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="3">NEXARO</text>
+</svg>

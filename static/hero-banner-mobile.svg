@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" aria-hidden="true">
+  <defs>
+    <radialGradient id="blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#1B4FD8" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="green" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#1FC47A" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#3B71F5" stroke-opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1350" fill="#07111F"/>
+  <rect width="1080" height="1350" fill="url(#grid)"/>
+  <ellipse cx="540" cy="620" rx="610" ry="680" fill="url(#blue)"/>
+  <ellipse cx="850" cy="1000" rx="360" ry="320" fill="url(#green)"/>
+  <g fill="none" stroke="#3B71F5" stroke-opacity=".34">
+    <path d="M-40 1020L210 830 430 900 590 600 790 720 1100 430"/>
+    <circle cx="210" cy="830" r="10"/><circle cx="430" cy="900" r="10"/>
+    <circle cx="590" cy="600" r="10"/><circle cx="790" cy="720" r="10"/>
+  </g>
+</svg>
